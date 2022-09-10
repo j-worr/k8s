@@ -12,17 +12,3 @@ patchesStrategicMerge:
     name: nginx1
   spec:
     replicas: 2
-
-
-
-
-#patches: 
-#  - target:
-#      kind: Deployment
-#      name: nginx1
-      
-      
-#patch: |-
-#       - op: replace
-#          path: /spec/replicas
-#          value: 2
