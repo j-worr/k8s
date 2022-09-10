@@ -14,4 +14,5 @@ nameSuffix: -nginx1
 
 images:
   - name: nginx
-    newName: httpd
+    #newName: httpd
+    newTag: "1.22.0"
