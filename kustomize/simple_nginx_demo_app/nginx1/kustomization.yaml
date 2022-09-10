@@ -9,3 +9,9 @@ commonLabels:
   dept: engineering
 
 namespace: nginx1
+
+nameSuffix: -nginx1
+
+images:
+  - name: nginx
+    newName: httpd

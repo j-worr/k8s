@@ -5,5 +5,5 @@ resources:
   - nginx1-ns.yaml
   - nginx1/
 
-
+namePrefix: demo-app-
 
