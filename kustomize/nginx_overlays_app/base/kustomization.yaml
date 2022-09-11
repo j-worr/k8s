@@ -6,3 +6,4 @@ resources:
   - nginx1-deploy.yaml
   - nginx1-svc.yaml
 
+namespace: nginx1
