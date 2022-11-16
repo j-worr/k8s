@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: ticker
-            image: 576640153544.dkr.ecr.us-east-1.amazonaws.com/ticker:49a6adfff5069bdc131d6bf058db5aab741fa327
+            image: 576640153544.dkr.ecr.us-east-1.amazonaws.com/ticker:ef2bd9fdbe33586ae1b0f862ab70efdc413e664e
             imagePullPolicy: IfNotPresent
             env:
             - name: AWS_ACCESS_KEY_ID
