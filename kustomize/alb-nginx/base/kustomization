@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - alb-nginx-ns.yaml
+  - alb-nginx-deploy.yaml
+  - alb-nginx-svc.yaml
+  - alb-nginx-ingress.yaml
+
+namespace: alb-nginx
