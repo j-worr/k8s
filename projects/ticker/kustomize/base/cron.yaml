@@ -3,14 +3,14 @@ kind: CronJob
 metadata:
   name: ticker
 spec:
-  schedule: "0 22 * * 1-5"
+  schedule: "* * * * *"
   jobTemplate:
     spec:
       template:
         spec:
           containers:
           - name: ticker
-            image: 576640153544.dkr.ecr.us-east-1.amazonaws.com/ticker:fd90b0a0d9d115462465a4531ed5bdef93c0f0d9
+            image: 576640153544.dkr.ecr.us-east-1.amazonaws.com/ticker:36f8f3f3329e8db5b654318e7622035484ef8038
             imagePullPolicy: IfNotPresent
             env:
             - name: AWS_ACCESS_KEY_ID
